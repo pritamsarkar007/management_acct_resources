@@ -7,5 +7,7 @@ repos:
           - --args=-no-color
           - --args=-diff
           - --args=-write=false
-          - --args=recursive
+          - --args=-recursive
+          - --args=-check
+          - --args=-list=true
       - id: terraform_docs
