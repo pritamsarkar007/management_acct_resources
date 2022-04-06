@@ -27,4 +27,6 @@ module "s3" {
     "ListBucket",
     "PutObject"
   ]
+
+
 }
